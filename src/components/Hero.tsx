@@ -24,7 +24,7 @@ export const Hero = () => {
       >
         <div className="relative w-full h-full">
           <Image
-            src="/hero-image.jpg"
+            src="/testimonials/hero-image.png"
             alt="Digital marketing agency hero"
             fill
             className="mx-auto rounded-2xl object-cover object-center"

@@ -70,6 +70,7 @@ export const Logos3 = ({
                   <div className="group relative aspect-video flex items-center justify-center p-6">
                     <div className="relative h-16 w-full">
                       <Image
+                    
                         src={getCleanImageUrl(logo.image)}
                         alt={logo.name}
                         fill
