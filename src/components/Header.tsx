@@ -6,6 +6,7 @@ import { Menu, X } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ThemeSwitcher } from './ThemeSwitcher';
+import { useTheme } from 'next-themes';
 
 import { ServicesMenu } from './ServicesMenu';
 import { MobileServicesMenu } from './MobileServicesMenu';
@@ -13,6 +14,7 @@ import { allServices } from 'contentlayer/generated';
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { theme } = useTheme();
 
   // Always use English, remove locale logic
   const services = allServices
@@ -33,16 +35,23 @@ export const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20">
           <div className="flex items-center">
-            <Link href="/en" className="text-4xl font-bold text-purple-600">
-              Revolv36t
-            </Link>
+            <div className="flex items-center gap-2">
+              <Link href="/en" className="flex items-center gap-2 text-4xl font-bold text-purple-600">
+                <img
+                  src="/testimonials/logo.PNG"
+                  alt="Revolv36t Logo"
+                  className={`h-20 w-20 object-contain transition-all duration-300 ${theme === 'dark' ? 'invert' : ''}`}
+                />
+                <span>Revolv36t</span>
+              </Link>
+            </div>
           </div>
           
           <div className="hidden md:flex items-center space-x-6">
             <Link href="/en" className="text-gray-600 dark:text-gray-300 hover:text-purple-600">
               Home
             </Link>
-            <ServicesMenu services={services} currentLocale="en" />
+            <ServicesMenu services={services} />
             <Link href="/en/blog" className="text-gray-600 dark:text-gray-300 hover:text-purple-600">
               Blog
             </Link>
@@ -77,7 +86,7 @@ export const Header = () => {
             <Link href="/en" className="block px-3 py-2 text-gray-600 dark:text-gray-300">
               Home
             </Link>
-            <MobileServicesMenu services={services} currentLocale="en" />
+            <MobileServicesMenu services={services} />
             <Link href="/en/blog" className="block px-3 py-2 text-gray-600 dark:text-gray-300">
               Blog
             </Link>
