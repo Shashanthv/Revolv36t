@@ -1,0 +1,66 @@
+{
+  "type": "Service",
+  "slug": "social-media",
+  "en": {
+    "title": "Social Media Marketing Services in Bangalore",
+    "description": "Strategic social media marketing solutions to help Bangalore businesses build a strong presence across all major platforms and connect with their target audience effectively.",
+    "metadata": {
+      "metaTitle": "Social Media Marketing Bangalore - Professional Social Media Services",
+      "metaDescription": "Expert social media marketing services in Bangalore. Grow your brand on Instagram, Snapchat, WhatsApp, Twitter, and LinkedIn with our specialized social media strategies.",
+      "openGraph": {
+        "title": "Social Media Marketing Bangalore - Professional Social Media Services",
+        "description": "Build a powerful social media presence in Bangalore with our expert marketing solutions",
+        "images": [
+          {
+            "url": "/images/social-media.jpg",
+            "width": 1200,
+            "height": 630,
+            "alt": "Social Media Marketing Services in Bangalore"
+          }
+        ]
+      },
+      "twitterCard": {
+        "cardType": "summary_large_image",
+        "title": "Social Media Marketing Bangalore",
+        "description": "Expert social media marketing services in Bangalore",
+        "image": "/images/social-media.jpg"
+      },
+      "type": "ServiceMetadata",
+      "_raw": {}
+    },
+    "features": [
+      {
+        "title": "Platform-Specific Marketing",
+        "description": "Specialized strategies for Instagram, Snapchat, WhatsApp, Twitter, and LinkedIn"
+      },
+      {
+        "title": "Content Creation",
+        "description": "Professional English content designed for Bangalore's market"
+      },
+      {
+        "title": "Community Management",
+        "description": "Active engagement and community building across all platforms"
+      },
+      {
+        "title": "Performance Monitoring",
+        "description": "Comprehensive analytics and reporting for all social media activities"
+      }
+    ],
+    "content": "## Strategic Social Media Marketing for Bangalore Businesses\n\nWe help Bangalore businesses build a strong social media presence across all major platforms. Our localized approach ensures your brand connects with Bangalore's active social media audience effectively.\n\n## Our Social Media Services\n\n### Platform-Specific Marketing\nTargeted strategies for each platform:\n* Instagram Marketing - Engage Bangalore's vibrant Instagram community\n* Snapchat Marketing - Connect with Bangalore's young audience\n* WhatsApp Marketing - Direct communication with customers\n* Twitter Marketing - Join Bangalore's online conversations\n* LinkedIn Marketing - Professional B2B networking\n\n## Our Social Media Process\n\n### 1. Strategy Development\nCustom social media strategies aligned with your business goals:\n* Audience analysis\n* Platform selection\n* Content strategy planning\n* Engagement tactics\n\n### 2. Content Creation\nProfessional content designed for Bangalore's market:\n* English content\n* Visual content design\n* Video content production\n* Story and Reels creation\n\n### 3. Community Management\nActive engagement with your social media community:\n* Response management\n* Comment moderation\n* Message handling\n* Community building\n\n### 4. Performance Monitoring\nComprehensive analytics and reporting:\n* Engagement tracking\n* Growth monitoring\n* ROI measurement\n* Performance optimization\n\n## Why Choose Our Social Media Services?\n* Bangalore Market Expertise\n* Platform-Specific Strategies\n* Proven Track Record\n* Dedicated Account Management\n",
+    "type": "ServiceEN",
+    "_raw": {}
+  },
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var f=(i,e)=>()=>(e||i((e={exports:{}}).exports,e),e.exports),M=(i,e)=>{for(var r in e)t(i,r,{get:e[r],enumerable:!0})},s=(i,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of h(e))!u.call(i,a)&&a!==r&&t(i,a,{get:()=>e[a],enumerable:!(o=g(e,a))||o.enumerable});return i};var k=(i,e,r)=>(r=i!=null?m(p(i)):{},s(e||!i||!i.__esModule?t(r,\"default\",{value:i,enumerable:!0}):r,i)),y=i=>s(t({},\"__esModule\",{value:!0}),i);var l=f((C,c)=>{c.exports=_jsx_runtime});var B={};M(B,{default:()=>v});var n=k(l());function d(i){let e=Object.assign({hr:\"hr\",p:\"p\",h2:\"h2\",a:\"a\",h3:\"h3\"},i.components);return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.hr,{}),`\n`,(0,n.jsx)(e.p,{children:`type: \"Service\"\\r\nslug: \"social-media\"\\r\nen:\\r\ntitle: \"Social Media Marketing Services in Bangalore\"\\r\ndescription: \"Strategic social media marketing solutions to help Bangalore businesses build a strong presence across all major platforms and connect with their target audience effectively.\"\\r\nmetadata:\\r\nmetaTitle: \"Social Media Marketing Bangalore - Professional Social Media Services\"\\r\nmetaDescription: \"Expert social media marketing services in Bangalore. Grow your brand on Instagram, Snapchat, WhatsApp, Twitter, and LinkedIn with our specialized social media strategies.\"\\r\nopenGraph:\\r\ntitle: \"Social Media Marketing Bangalore - Professional Social Media Services\"\\r\ndescription: \"Build a powerful social media presence in Bangalore with our expert marketing solutions\"\\r\nimages:\\r\n- url: \"/images/social-media.jpg\"\\r\nwidth: 1200\\r\nheight: 630\\r\nalt: \"Social Media Marketing Services in Bangalore\"\\r\ntwitterCard:\\r\ncardType: \"summary_large_image\"\\r\ntitle: \"Social Media Marketing Bangalore\"\\r\ndescription: \"Expert social media marketing services in Bangalore\"\\r\nimage: \"/images/social-media.jpg\"\\r\nfeatures:\\r\n- title: \"Platform-Specific Marketing\"\\r\ndescription: \"Specialized strategies for Instagram, Snapchat, WhatsApp, Twitter, and LinkedIn\"\\r\n- title: \"Content Creation\"\\r\ndescription: \"Professional English content designed for Bangalore's market\"\\r\n- title: \"Community Management\"\\r\ndescription: \"Active engagement and community building across all platforms\"\\r\n- title: \"Performance Monitoring\"\\r\ndescription: \"Comprehensive analytics and reporting for all social media activities\"\\r\ncontent: |`}),`\n`,(0,n.jsx)(e.h2,{id:\"strategic-social-media-marketing-for-bangalore-businesses\",children:(0,n.jsx)(e.a,{href:\"#strategic-social-media-marketing-for-bangalore-businesses\",children:\"Strategic Social Media Marketing for Bangalore Businesses\"})}),`\n`,(0,n.jsx)(e.p,{children:\"We help Bangalore businesses build a strong social media presence across all major platforms. Our localized approach ensures your brand connects with Bangalore's active social media audience effectively.\"}),`\n`,(0,n.jsx)(e.h2,{id:\"our-social-media-services\",children:(0,n.jsx)(e.a,{href:\"#our-social-media-services\",children:\"Our Social Media Services\"})}),`\n`,(0,n.jsx)(e.h3,{id:\"platform-specific-marketing\",children:(0,n.jsx)(e.a,{href:\"#platform-specific-marketing\",children:\"Platform-Specific Marketing\"})}),`\n`,(0,n.jsx)(e.p,{children:`Targeted strategies for each platform:\\r\n* Instagram Marketing - Engage Bangalore's vibrant Instagram community\\r\n* Snapchat Marketing - Connect with Bangalore's young audience\\r\n* WhatsApp Marketing - Direct communication with customers\\r\n* Twitter Marketing - Join Bangalore's online conversations\\r\n* LinkedIn Marketing - Professional B2B networking`}),`\n`,(0,n.jsx)(e.h2,{id:\"our-social-media-process\",children:(0,n.jsx)(e.a,{href:\"#our-social-media-process\",children:\"Our Social Media Process\"})}),`\n`,(0,n.jsx)(e.h3,{id:\"1-strategy-development\",children:(0,n.jsx)(e.a,{href:\"#1-strategy-development\",children:\"1. Strategy Development\"})}),`\n`,(0,n.jsx)(e.p,{children:`Custom social media strategies aligned with your business goals:\\r\n* Audience analysis\\r\n* Platform selection\\r\n* Content strategy planning\\r\n* Engagement tactics`}),`\n`,(0,n.jsx)(e.h3,{id:\"2-content-creation\",children:(0,n.jsx)(e.a,{href:\"#2-content-creation\",children:\"2. Content Creation\"})}),`\n`,(0,n.jsx)(e.p,{children:`Professional content designed for Bangalore's market:\\r\n* English content\\r\n* Visual content design\\r\n* Video content production\\r\n* Story and Reels creation`}),`\n`,(0,n.jsx)(e.h3,{id:\"3-community-management\",children:(0,n.jsx)(e.a,{href:\"#3-community-management\",children:\"3. Community Management\"})}),`\n`,(0,n.jsx)(e.p,{children:`Active engagement with your social media community:\\r\n* Response management\\r\n* Comment moderation\\r\n* Message handling\\r\n* Community building`}),`\n`,(0,n.jsx)(e.h3,{id:\"4-performance-monitoring\",children:(0,n.jsx)(e.a,{href:\"#4-performance-monitoring\",children:\"4. Performance Monitoring\"})}),`\n`,(0,n.jsx)(e.p,{children:`Comprehensive analytics and reporting:\\r\n* Engagement tracking\\r\n* Growth monitoring\\r\n* ROI measurement\\r\n* Performance optimization`}),`\n`,(0,n.jsx)(e.h2,{id:\"why-choose-our-social-media-services\",children:(0,n.jsx)(e.a,{href:\"#why-choose-our-social-media-services\",children:\"Why Choose Our Social Media Services?\"})}),`\n`,(0,n.jsx)(e.p,{children:`* Bangalore Market Expertise\\r\n* Platform-Specific Strategies\\r\n* Proven Track Record\\r\n* Dedicated Account Management`})]})}function S(i={}){let{wrapper:e}=i.components||{};return e?(0,n.jsx)(e,Object.assign({},i,{children:(0,n.jsx)(d,i)})):d(i)}var v=S;return y(B);})();\n;return Component;"
+  },
+  "_id": "services/social-media.mdx",
+  "_raw": {
+    "sourceFilePath": "services/social-media.mdx",
+    "sourceFileName": "social-media.mdx",
+    "sourceFileDir": "services",
+    "contentType": "mdx",
+    "flattenedPath": "services/social-media"
+  },
+  "path": "/services/social-media"
+}

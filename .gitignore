@@ -1,0 +1,10 @@
+# Ignore build output
+.next/
+out/
+
+# Ignore dependencies
+node_modules/
+
+# Optional (other large folders)
+.cache/
+dist/
